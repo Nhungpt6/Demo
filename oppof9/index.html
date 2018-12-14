@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>FPT Shop</title>
+		<meta name="description" content="FPT Shop">
+		<meta name="keywords" content="FPTSHOP" />
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="copyright" content="Công ty Cổ phần Bán lẻ Kỹ thuật số FPT">
+		<meta name="author" content="Công ty Cổ phần Bán lẻ Kỹ thuật số FPT">
+		<meta http-equiv="audience" content="General">
+		<meta name="resource-type" content="Document">
+		<meta name="distribution" content="Global">
+		<meta name="GENERATOR" content="Công ty Cổ phần Bán lẻ Kỹ thuật số FPT">
+		<meta property="fb:app_id" content="289591837916420" />
+
+		<meta property="article:publisher"
+			content="https://www.facebook.com/FPTShopOnline" />
+		<meta property="article:author"
+			content="https://www.facebook.com/FPTShopOnline" />
+		<meta property="og:image"
+			content="http://fptshop.com.vn/Content/v3/images/logo-black.png" />
+		<meta property="og:title" content="FPTShop" />
+		<meta property="og:description" content="FPTShop" />
+		<!-- Favicons -->
+		<link rel="icon" href="images/favicon.ico">
+		<!-- Css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/treset.css" />
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Js -->
+		<script src="js/libs/jquery-1.11.2.min.js"></script>
+		<script src="js/libs/bootstrap.min.js"></script>
+		<script src="js/libs/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="js/functions.js"></script>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<script src="js/libs/ie-emulation-modes-warning.js"></script>
+		<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+		.of9-sg
+        {
+            text-align: center;
+			color: #ffffff;
+			padding: 90px 0;
+            background-image: linear-gradient(89deg, #490530, #4a0059 51%, #370065 74%, #230251);
+            background-image: -moz-linear-gradient(89deg, #490530, #4a0059 51%, #370065 74%, #230251);
+            background-image: -webkit-linear-gradient(89deg, #490530, #4a0059 51%, #370065 74%, #230251);
+            background-image: -o-linear-gradient(89deg, #490530, #4a0059 51%, #370065 74%, #230251);
+            background-image: -ms-linear-gradient(89deg, #490530, #4a0059 51%, #370065 74%, #230251);
+		}
+		.of9-sg .of9-sgtit
+		{
+			font-size: 32px;
+            font-weight: bold;
+		}
+		.of9-sg .of9-sgdes
+		{
+			font-size: 20px;
+			text-align: center;
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 50px;
+		}
+		.of9-sg .of9-sgqua
+		{
+			font-size: 18px;
+			letter-spacing: 2.5px;
+			text-transform: uppercase;
+			line-height: 42px;
+		}
+		.of9-chtit
+		{
+			font-size: 46px;
+			color: #d4e0ff;
+			letter-spacing: 2px;
+			padding-bottom: 20px;
+		}
+		.of9-imgch
+		{
+			width: 90%;
+			padding-bottom: 20px;
+		}
+		.of9-s4rad 
+		{
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 18px;
+			color: #e1e1e1;
+			max-width: 200px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+		}
+		.of9-s4rad input 
+		{
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+		
+		}
+		.of9-s4checkmark 
+		{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 25px;
+            height: 25px;
+            background-color: #eee;
+            border-radius: 50%;
+        }
+		.of9-s1g-b1 ul li
+        {
+            padding: 8px 10px;
+			font-size: 18px;
+			clear: both;
+        }
+        .of9-s1g-b1 ul li label
+        {
+           float: left;
+		   width: 20%;
+           color: #d4e0ff;
+        }
+        .of9-s1g-b1 ul li input
+        {
+            margin-left: 175px;
+            display: block;
+			color: #d4e0ff;
+			width: 70%;
+			padding: 8px 10px;
+			border-radius: 5px;
+			border-color: 0;
+		}
+		.of9-s1g-b1 form
+		{
+			padding-left: 30%;
+            padding-right: 30%;
+		}
+		.of9-sg .of9-sgbtn
+		{
+			padding-top: 50px;		
+		}
+		.of9-s1g-b2 .of9-sgbtn
+		{
+			padding-top: 0px;		
+		}
+		.of9-sg .of9-sgbtn a
+		{
+		    text-align: center;
+            color: #ffff;
+            font-family: MyriadPro;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 12px;
+            padding: 12px 65px;
+	        background-image: linear-gradient(257deg, #3e65af, #c23a98 77%, #ee3e28);
+		}
+		.of9-ch 
+		{
+			display: flex;
+			justify-content: space-between;
+			padding-left: 25%;
+            padding-right: 25%;
+		}
+		::placeholder
+		{
+			font-size: 14px;
+		}
+		@media (max-width: 768px) {
+			.of9-sg
+			{
+				padding: 50px 0;
+			}
+			.of9-s1g-b1 form {
+				padding: 0;
+			}
+			.of9-ch {
+	            flex-direction: column;
+			}
+			.of9-chitem
+			{
+				padding-bottom: 50px;
+				display: flex;
+                flex-direction: row;
+			}
+			.of9-imgch
+			{
+                width: 60%;
+                height: 60%;
+                padding-bottom: 0px;
+			}
+			.of9-chitem p
+			{
+				padding: 19% 0 19% 15px;
+			}
+			.of9-s4rad
+			{
+	            padding-left: 27px;
+			}
+			
+		}
+		@media (max-width: 375px) {
+		    .of9-ch 
+		    {
+			    padding-left: 5%;
+                padding-right: 5%;
+			}
+			.of9-s1g-b1 ul li label 
+			{
+               width: 30%;
+               color: #d4e0ff;
+               font-size: 16px;
+			}
+			.of9-s1g-b1 ul li input {
+				margin: 0;
+			}
+			.of9-chtit {
+                font-size: 28px;
+	            letter-spacing: 1.2px;
+			}
+			.of9-sg .of9-sgtit {
+                font-size: 18px;
+			}
+			.of9-sg .of9-sgdes {
+				font-size: 14px;
+			}
+			.of9-s4rad
+			{
+				padding-left: 35px;
+				font-size: 14px;
+			}
+		}
+
+	</style>
+	</head>
+	<div>
+		<div class="of-header">
+			<div class="container">
+				<a href="http://fptshop.com.vn/" title="Fptshop.com.vn"><img class="of-logo"
+						src="images/logo.png" alt="Fptshop.com.vn"></a>
+
+				<span class="of-iconmntop"><i class="glyphicon glyphicon-menu-hamburger"></i></span>
+				<ul class="of-menutop clearfix">
+					<li><a target="_blank" href="http://fptshop.com.vn/dien-thoai" title=""> <i
+								class="of-imobile"></i> <span>Điện thoại</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-xach-tay"
+							title=""> <i class="of-ilaptop"></i> <span>Laptop</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/apple" title=""> <i
+								class="of-iapple"></i> <span>Apple</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/samsung" title=""> <i
+								class="of-samsung"></i> <span>Samsung</span></a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/may-tinh-bang" title="">
+							<i class="of-itablet"></i> <span>Tablet</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/phu-kien" title=""> <i
+								class="of-ipkien"></i> <span>Phụ kiện</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/may-doi-tra" title="">
+							<i class="of-imdt"></i> <span>Máy đổi trả</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/sim-the" title=""> <i
+								class="of-isimthe"></i> <span>Sim thẻ</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/khuyen-mai" title=""> <i
+								class="of-ikmai"></i> <span>Khuyến mãi</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/tin-tuc" title=""> <i
+								class="of-itinhay"></i> <span>Tin hay</span> </a></li>
+					<li><a target="_blank" href="http://fptshop.com.vn/dien-dan" title=""> <i
+								class="of-ihoidap"></i> <span>Hỏi đáp</span> </a></li>
+				</ul>
+
+				<div class="of-search">
+					<i class="of-isearch"></i> <span>Tìm kiếm</span>
+				</div>
+
+				<div class="of-call">
+					<a href="tel:18006601">
+						<span>Tư vấn miễn phí</span>
+						<p><i class="glyphicon glyphicon-earphone"></i>1800 6601</p>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="of-searchbox">
+			<div class="of-searchbar">
+				<div class="container">
+					<a href="" title=""><img class="of-slogo" src="images/logo-mb.png" alt=""></a>
+					<div class="of-ipsearch input-group">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button"><i class="glyphicon
+									glyphicon-search"></i></button>
+						</span>
+						<input type="text" class="form-control" placeholder="Tìm kiếm
+							Fptshop.com.vn">
+					</div>
+					<span class="of-closesearch">&#x2715;</span>
+				</div>
+			</div>
+		</div>
+		<div class="of9-s1">
+			<div class="of9-s1game">
+				<p class="of9-s1imgtit"><img src="images/1.png" alt=""></p>
+				<p class="of9-s1imgdt"><img src="images/2b.png" alt=""></p>
+				<p class="of9-s1btntg"><a href="#">Tham gia ngay</a></p>
+			</div>
+		</div>
+
+		<div class="of9-sg of9-s1g-b1">
+			<p class="of9-sgtit">Thông tin liên hệ</p>
+			<p class="of9-sgdes">Bạn vui lòng nhập thông tin để liên hệ khi trúng thưởng <br> và tham gia quay số nhận thẻ cào </p>
+			<form action="post">
+				<ul>
+					<li>
+						<label>Họ và tên:*</label>
+						<input type="text" name="hoten" placeholder="Nhập họ và tên">
+					</li>
+					<li>
+						<label>Số điện thoại:*</label>
+						<input type="text" name="hoten" placeholder="Nhập số điện thoại">
+					</li>
+					<li>
+						<label>Địa chỉ email:*</label>
+						<input type="text" name="hoten" placeholder="Nhập địa chỉ email">
+					</li>
+				</ul>
+			</form>
+			<p class="of9-sgbtn"><a href="#">Gửi thông tin</a></p>
+		</div>
+
+		<div class="of9-sg of9-s1g-b2">
+			<p class="of9-sgtit">Quay số trúng thưởng</p>
+			<p class="of9-sgdes">Mỗi ngày tham gia trò chơi bạn có cơ hội quay số trúng thưởng</p>
+			<p class="of9-sgqua">200 thẻ cào <strong>50.000đ</strong></p>
+			<p class="of9-sgqua">02 <strong>Oppo F9</strong></p>
+			<p><img src="images/quay.png" alt=""></p>
+			<p class="of9-sgbtn"><a href="#">Gửi thông tin</a></p>
+		</div>
+
+		<div class="of9-sg of9-ch1">
+			<p class="of9-chtit">Tìm hiểu F9 - Rinh ngay F9</p>
+			<p class="of9-sgtit">Câu 1</p>
+			<p class="of9-sgdes">Theo bạn, đâu là thiết kế màn hình của OPPO F9?</p>
+			<div class="of9-ch">
+					<div class="of9-chitem">
+						<img src="images/ch1.png" alt="" class="of9-imgch">
+						<p>
+							<label class="of9-s4rad">
+								<input type="radio" checked="checked" name="radio">
+									Tràn viền
+								<span class="of9-s4checkmark"></span>
+							</label>
+						</p>
+					</div>
+					<div class="of9-chitem">
+							<img src="images/ch1.png" alt="" class="of9-imgch">
+							<p>
+								<label class="of9-s4rad">
+									<input type="radio" checked="checked" name="radio">
+										Siêu tràn
+									<span class="of9-s4checkmark"></span>
+								</label>
+						    </p>
+					</div>
+					<div class="of9-chitem">
+						<img src="images/ch1.png" alt="" class="of9-imgch">
+						<p>
+							<label class="of9-s4rad">
+							    <input type="radio" checked="checked" name="radio">
+									Giọt nước
+								<span class="of9-s4checkmark"></span>
+							</label>
+						</p>
+					</div>
+			</div>
+			<p class="of9-sgbtn"><a href="#">Câu tiếp theo</a></p>
+		</div>
+
+		<div class="of9-sg of9-ch2">
+			<p class="of9-chtit">Tìm hiểu F9 - Rinh ngay F9</p>
+			<p class="of9-sgtit">Câu 2</p>
+			<p class="of9-sgdes">Theo bạn, đâu là thiết kế mặt lưng của OPPO F9?</p>
+			<div class="of9-ch">
+				<div class="of9-chitem">
+					<img src="images/ch1.png" alt="" class="of9-imgch">
+					<p>
+					    <label class="of9-s4rad">
+						    <input type="radio" checked="checked" name="radio">
+							Màu sắc độc đáo
+						    <span class="of9-s4checkmark"></span>
+						</label>
+					</p>
+				</div>
+				<div class="of9-chitem">
+					<img src="images/ch1.png" alt="" class="of9-imgch">
+						<p>
+							<label class="of9-s4rad">
+								<input type="radio" checked="checked" name="radio">
+								Ánh gương kì ảo
+								<span class="of9-s4checkmark"></span>
+							</label>
+						</p>
+				</div>
+				<div class="of9-chitem">
+					<img src="images/ch1.png" alt="" class="of9-imgch">
+					<p>
+						<label class="of9-s4rad">
+						    <input type="radio" checked="checked" name="radio">
+							Cánh hoa chuyển sắc
+							<span class="of9-s4checkmark"></span>
+						</label>
+					</p>
+				</div>
+			</div>
+			<p class="of9-sgbtn"><a href="#">Câu tiếp theo</a></p>
+		</div>
+
+		<div class="of9-sg of9-ch3">
+			<p class="of9-chtit">Tìm hiểu F9 - Rinh ngay F9</p>
+			<p class="of9-sgtit">Câu 3</p>
+			<p class="of9-sgdes">Công nghệ độc quyền nào của OPPO chỉ được trang bị trên phân khúc cao cấp,
+					nay đã xuất hiện trên OPPO F9?</p>
+			<div class="of9-ch" style="justify-content: space-evenly">
+				<div class="of9-chitem">
+					<img src="images/ch1.png" alt="" class="of9-imgch">
+					<p>
+						<label class="of9-s4rad">
+							<input type="radio" checked="checked" name="radio">
+							Camera sau kép
+							<span class="of9-s4checkmark"></span>
+						</label>
+					</p>
+				</div>
+				<div class="of9-chitem">
+					<img src="images/ch1.png" alt="" class="of9-imgch">
+					<p>
+						<label class="of9-s4rad">
+							<input type="radio" checked="checked" name="radio">
+							Sạc nhanh VOOC 5 phút sạc
+							- 2 giờ liên lạc
+							<span class="of9-s4checkmark"></span>
+						</label>
+					</p>
+				</div>
+			</div>
+			<p class="of9-sgbtn"><a href="#">Hoàn thành</a></p>
+		</div>
+
+		<div class="of9-sg of9-s1g-b1">
+			<p class="of9-sgtit">Chúc bạn may mắn lần sau</p>
+			<p class="of9-sgdes">Chia sẻ Facebook để nhận thêm lượt quay</p>
+			<p class="of9-sgdes">Hoặc quay lại vào ngày mai và có thêm cơ hội trúng thưởng</p>
+			<p>
+				<img src="images/mayman.png" alt="">
+			</p>
+		</div>
+
+		<div class="of9-sg of9-s1g-b1">
+			<p class="of9-sgtit">Chúc bạn may mắn lần sau</p>
+			<p class="of9-sgdes">Vui lòng quay lại vào ngày mai và có thêm cơ hội trúng thưởng</p>
+			<p>
+				<img src="images/mayman.png" alt="">
+			</p>
+		</div>
+
+		<div class="of9-sg of9-s1g-b1">
+			<p class="of9-sgtit">Chúc mừng bạn đã trúng thưởng</p>
+			<p class="of9-sgdes">Thông tin thẻ cào sẽ được gửi đến bạn vào 10 giờ sáng ngày hôm sau</p>
+			<p>
+				<img src="images/thecao.png" alt="">
+			</p>
+		</div>
+		
+		<div class="of9-s2">
+			<p class="of9-s2wrap">
+				<span class="glyphicon glyphicon-time of9-s2icon"></span>
+				<span class="of9-s2tit">Oppo F9 sẽ ra mắt sau</span>
+				<span class="of9-s2time">10</span>
+				<span class="of9-s2tit">ngày</span>
+				<span class="of9-s2time">15:12:32</span>
+			</p>
+			<p>
+				Ra mắt: <strong>15/8/2018</strong> – Đặt trước: <strong>15/8 - 24/8/2018</strong>
+			</p>
+			<a href="#">Đăng ký nhận thông tin</a>
+		</div>
+
+		<div class="of9-s3">
+			<h3 class="of9-tit">Sạc Nhanh VOOC</h3>
+			<p class="of9-des">5 Phút Sạc, 2 Giờ Liên Lạc</p>
+			<img src="images/3.png" alt="">
+		</div>
+
+		<div class="of9-s4">
+			<h3 class="of9-tit">Sắc Màu Chuyển Động</h3>
+			<p class="of9-des">Sự biến đổi hài hoà</p>
+			<p>
+				<label class="of9-s4rad">
+					<input type="radio" checked="checked" name="radio">
+					Đỏ Ánh Dương
+					<span class="of9-s4checkmark"></span>
+				</label>
+				<label class="of9-s4rad">
+					<input type="radio" name="radio">
+					Xanh Chạng Vạng
+					<span class="of9-s4checkmark"></span>
+				</label>
+			</p>
+		</div>
+
+		<div class="of9-s5">
+			<h3 h3 class="of9-tit">Màn hình giọt nước</h3>
+			<p class="of9-des">Trải nghiệm góc nhìn vô tận</p>
+			<p class="of9-s5mh"><img src="images/5.png" alt=""></p>
+			<h3 h3 class="of9-tit">Camera sau kép</h3>
+			<p class="of9-des">Xoá phông cực đỉnh</p>
+			<p class="of9-s5cam"><img src="images/6.png" alt=""></p>
+		</div>
+
+		<div class="of9-s6">
+			<h3 h3 class="of9-tit">Đặt trước OPPO F9</h3>
+			<p class="of9-des">Tràn năng lượng với Sạc Nhanh Dự Phòng VOOC</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="of9-s6km">
+							<img src="images/7.png" alt="">
+							<p class="of9-des">Giá dự kiến: 00.000.000 vnd</p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="of9-s6dt">
+							<img src="images/8.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="of9-s7">
+			<div class="container">
+				<div class="of9-s7tskt">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<img src="images/9.png" alt="">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							<p class="of9-s7tit">Thông số kỹ thuật dự kiến</p>
+							<ul class="of9-s7ul">
+								<li>
+									<strong>Màu sắc :</strong>
+									<span>Lorem</span>
+								</li>
+								<li>
+									<strong>Màn hình :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>Camera trước :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>Camera sau :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>CPU :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>RAM :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>Bộ nhớ :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>Pin :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>Hệ điều hành :</strong>
+									<span>Lorem ipum</span>
+								</li>
+								<li>
+									<strong>Sim :</strong>
+									<span>Lorem ipum</span>
+								</li>
+							</ul>
+							<p style="text-align: center;padding: 50px 0;">
+								<a href="#" class="of9-s7btndk">Đăng ký nhận thông tin</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="of9-s7tt">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<img src="images/10.jpg" alt="">
+							<h2 class="of9-s7ttname">
+								Google tích hợp tùy chọn tìm kiếm cá nhân vào menu Search
+							</h2>
+							<p class="of9-s7tttime">12/07/2018</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<img src="images/10.jpg" alt="">
+							<h2 class="of9-s7ttname">
+								Google tích hợp tùy chọn tìm kiếm cá nhân vào menu Search
+							</h2>
+							<p class="of9-s7tttime">12/07/2018</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<img src="images/10.jpg" alt="">
+							<h2 class="of9-s7ttname">
+								Google tích hợp tùy chọn tìm kiếm cá nhân vào menu Search
+							</h2>
+							<p class="of9-s7tttime">12/07/2018</p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<img src="images/10.jpg" alt="">
+							<h2 class="of9-s7ttname">
+								Google tích hợp tùy chọn tìm kiếm cá nhân vào menu Search
+							</h2>
+							<p class="of9-s7tttime">12/07/2018</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="ss-tlds" id="the-le">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<h3 class="p1-s4tit">Thể lệ chương trình</h3>
+								<div class="p1-s4ttle mCustomScrollbar">
+									<p><strong>Thời gian:</strong>Áp dụng từ 05/04/2016</p>
+									<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge nhận được tới <strong>9 ưu đãi khủng</strong>:</p>
+									<ul>
+										<li><strong>1:</strong> Trả góp Home Credit 0% lãi suất, trả trước
+											40%,
+											kỳ hạn 6 tháng </li>
+										<li><strong>2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh
+											(không
+											áp dụng trả góp 0%)</li>
+										<li><strong>3:</strong> Sim Đại Phát 0888xxxxx8 (không áp dụng trả
+											góp
+											0%)</li>
+										<li><strong>4:</strong> 3 tháng cước 3G trị giá 210.000đ (không áp
+											dụng
+											trả góp 0%)</li>
+										<li><strong>5:</strong> Phiếu mua hàng 220.000đ áp dụng mua Sạc dự
+											phòng
+											6000mAh hoặc 10000mAh</li>
+										<li><strong>6:</strong> Gói chăm sóc đặc quyền: 1 đổi 1, hỗ trợ kỹ
+											thuật
+											tận nhà, Hotline VIP</li>
+										<li><strong>7:</strong> Gói ưu đãi đặc quyền: phòng chờ máy bay hạng
+											thương gia, cafe/xem phim miễn phí rạp CGV, gói game-pack trị giá
+											200USD...></li>
+										<li><strong>8:</strong> Cơ hội trúng thưởng 27 Galaxy S7</li>
+										<li><strong>9:</strong> Cơ hội trúng thưởng 300 Tivi Samsung 32”</li>
+									</ul>
+
+									<p><strong>Thời gian mở bán:</strong>Từ 18/03/2016</p>
+									<p><strong>Ưu đãi:</strong> khách hàng mua Galaxy S7, S7 edge chọn 1 trong 3 gói khuyến mãi sau:</p>
+									<ul>
+										<li><strong>KM1:</strong> Trả góp Home Credit 0% lãi suất, trả trước 40%, kỳ hạn 6 tháng</li>
+										<li><strong>KM2:</strong> Tặng Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088</li>
+										<li><strong>KM3:</strong> Trả góp 0% bằng thẻ tín dụng + Sạc dự phòng nhanh Samsung 5200mAh + Sim Đại Phát 088 (áp dụng từ 14h 22/03)</li>
+									</ul>
+									<p><strong>Ngoài 1 trong 3 gói khuyến mãi trên, khách hàng nhận thêm:</strong></p>
+									<ul>
+										<li><strong>Gói ưu đãi đặc quyền:</strong> phòng chờ máy bay hạng thương gia, cafe/xem phim miễn phí rạp CGV, gói game trị giá 200USD...
+											<li><strong>Gói chăm sóc đặc quyền:</strong> 1 đổi 1, hỗ trợ kỹ thuật tận nhà, Hotline VIP</li>
+											<li><strong>Cơ hội trúng thưởng 27 Galaxy S7</strong> dành cho kháchhàng mua hàng từ 01/03 - 30/04 (không áp dụng cho khách hàng đã trúng thưởng đợt 1).</li>
+											<li><strong>Khuyến mãi phụ kiện giảm tới 30%</strong> khi mua kèm</li>
+										</ul>
+										<p><strong>Lưu ý:</strong>
+											Không áp dụng đối với đơn hàng đặt cọc từ 01/03 đến 17/03.
+										</p>
+										<p><strong>Thời gian đặt cọc: </strong>01/03/2016 - 22h00 17/03/2016</p>
+										<p><strong>Ưu đãi: </strong></p>
+										<p>
+											<strong>- Từ 01/03 đến 12h00 03/03:</strong>
+											khách hàng may mắn có cơ hội nhận được
+										</p>
+
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-12">
+									<h3 class="p1-s4tit">Có <strong>132</strong> người chơi tham gia
+									</h3>
+									<ul class="p1-s4ulsh clearfix">
+										<li>
+											<div class="p1-s4search">
+												<input type="text" class="form-control" placeholder="Nhập số điện thoại để tìm kiếm">
+											</div>
+										</li>
+										<li>
+											<input type="checkbox" class="p1-s4rad" id="p1s4rad5">
+											<label for="p1s4rad5" class="p1-s4lb">Chỉ hiển thị người trúng giải</label>
+										</li>
+									</ul>
+									<div class="p1-s4table mCustomScrollbar">
+										<table class="table table-hover table-striped">
+											<thead>
+												<tr>
+													<td>STT</td>
+													<td>Họ tên</td>
+													<td>Điện thoại</td>
+													<td>Trạng thái</td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+												<tr>
+													<td>123</td>
+													<td>Nguyễn Văn Anh</td>
+													<td>0986222xxx</td>
+													<td>Đã cọc</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="of9-bl">
+						<!-- Comment -->
+					</div>
+				</div>
+			</div>
+		<footer class="of-footer">
+			<div class="container">
+				<div class="of-footer-link">
+					<a target="_blank" href="http://fptshop.com.vn/huong-dan/huong-dan-mua-hang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a> |
+					<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-tra-gop" title="Trả góp">Trả góp</a> |
+					<a target="_blank" href="http://fptshop.com.vn/ho-tro/chinh-sach-bao-hanh" title="Chính sách bảo hành">Chính sách bảo hành</a>
+				</div>
+				<p>Công Ty Cổ Phần Bán Lẻ Kỹ Thuật Số FPT - 261-263 Khánh Hội, P5, Q4, TP.Hồ Chí Minh.</p>
+				<p>Điện thoại: 028.73023456. Fax: 028.39435773. Email: cskh@fptshop.com.vn</p>
+			</div>
+		</footer>
+	</body>
+</html>

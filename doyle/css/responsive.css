@@ -1,0 +1,286 @@
+/************* Responsive **************/
+
+@media (min-width: 992px) {
+    .dropdown-menu,
+    .dropdown-content {
+        animation: animationmenus ease 0.5s;
+        animation-iteration-count: 1;
+        transform-origin: 50% 50%;
+        animation-fill-mode: forwards;
+        /*when the spec is finished*/
+        -webkit-animation: animationmenus ease 0.5s;
+        -webkit-animation-iteration-count: 1;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-animation-fill-mode: forwards;
+        /*Chrome 16+, Safari 4+*/
+        -moz-animation: animationmenus ease 0.5s;
+        -moz-animation-iteration-count: 1;
+        -moz-transform-origin: 50% 50%;
+        -moz-animation-fill-mode: forwards;
+        /*FF 5+*/
+        -o-animation: animationmenus ease 0.5s;
+        -o-animation-iteration-count: 1;
+        -o-transform-origin: 50% 50%;
+        -o-animation-fill-mode: forwards;
+        /*Not implemented yet*/
+        -ms-animation: animationmenus ease 0.5s;
+        -ms-animation-iteration-count: 1;
+        -ms-transform-origin: 50% 50%;
+        -ms-animation-fill-mode: forwards;
+        /*IE 10+*/
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {}
+
+@media (max-width: 1400px) {}
+
+/* ipad pro */
+
+@media (max-width: 1199px) and (min-width: 992px) {}
+
+@media (max-width: 1024px) {
+    .des-title {
+        padding: 0px;
+    }
+    .inner-advantage {
+        padding: 0;
+    }
+    .img-des .img-view {
+        top: 70%;
+    }
+    .btn-right,
+    .btn-left {
+        top: 80%;
+    }
+    .newsletter .des-subscribe {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-bottom: 10px;
+    }
+    #btn-menu {
+        display: block;
+    }
+    #main-nav {
+        display: none !important;
+    }
+    .sub-title {
+        font-size: 30px;
+    }
+    .feature-wrap {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* home-1 */
+    .logo {
+        text-align: left;
+    }
+    #btn-menu {
+        line-height: 100px;
+    }
+    #top-header.fixed #btn-menu {
+        line-height: 80px;
+    }
+    .home-2 #main-header .header-absolute .header-desktop {
+        border-bottom: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* menu bar */
+    .smallLeft {
+        float: right;
+        margin-left: 410px;
+    }
+    .cart-right {
+        float: right;
+    }
+    .home-3 .introduce .row-intro {
+        display: block;
+    }
+    .error-page .bt-content {
+        padding-top: 5%;
+        text-align: center;
+    }
+    .error-page .bt-content h1 {
+        padding-right: 0;
+    }
+    .logo-footer {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menu-footer ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .bottom-footer .phone {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .bottom-footer .socials-footer {
+        text-align: center;
+    }
+    .error-page .main-content .section {
+        padding-top: 0 !important;
+    }
+    .error-page-2 .main-content {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .error-page-2 .bt-content {
+        padding-left: 45%;
+    }
+    .about-me .bg-aboutme {
+        padding-top: 0px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .socials-footer {
+        text-align: center;
+    }
+    .blog-1 .wrap-header,
+    .blog-3 .wrap-header,
+    .blog-1 .blog-news-1,
+    .blog-single .wrap-header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .blog-3 .section {
+        padding-top: 0px !important;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 479px) {}
+
+@media (max-width: 375px) {
+    /* menu bar */
+    .smallLeft {
+        float: right;
+    }
+    .cart-right {
+        float: right;
+    }
+    /* slide show */
+    /* project list */
+    .img-li {
+        width: 100%;
+    }
+    /* table price */
+    .table-price-1 {
+        order: 4;
+        margin: 10px;
+    }
+    .table-price-2 {
+        order: 1;
+        margin: 10px;
+    }
+    .table-price-3 {
+        order: 2;
+        margin: 10px;
+    }
+    .table-price-4 {
+        order: 3;
+        margin: 10px;
+    }
+    /* customer-item*/
+    .img-thumb {
+        position: relative;
+        float: none;
+        right: 100px;
+        width: 120px;
+        height: 120px;
+        border: 5px solid rgba(17, 17, 17, 0.2);
+        border-radius: 50%;
+    }
+    .thumb-content {
+        padding-left: 5px;
+        text-align: center;
+    }
+    /* session advantage */
+    .inner-advantage {
+        margin-bottom: 40px;
+        padding-right: 5px;
+    }
+    .col-content {
+        padding-left: 5px;
+    }
+    /* blog-news*/
+    .feature-list .feature-content {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+    .error-page .bt-content h1 {
+        font-size: 31px;
+    }
+    .error-page-2 .bt-content .bt-support,
+    .error-page .bt-content .bt-support {
+        margin-bottom: 20px;
+    }
+    .top-footer {
+        padding-top: 30px;
+    }
+    .menu-footer ul {
+        text-align: center;
+    }
+    .popup-over .popup-title {
+        text-transform: none;
+    }
+    .smallLeft {
+        float: right;
+        margin-left: 100px;
+    }
+    .wrap-header {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .popup-over .popup-title {
+        padding: 10px 0px;
+    }
+    .logo {
+        line-height: 100px;
+        padding: 10px 0px;
+    }
+    .error-page-2 .bt-content {
+        text-align: center;
+        padding: 0;
+    }
+    .about-me .bg-aboutme {
+        padding-top: 40px;
+    }
+    .top-header .socials-footer,
+    .top-header .socials-footer {
+        float: left;
+        padding: 16px 15px 15px 8px;
+    }
+    .top-header .account,
+    .top-header .account {
+        float: left;
+    }
+    .top-header .content-between {
+        display: block;
+    }
+    .about-us-1 .wrap-header,
+    .about-us-2 .wrap-header {
+        padding: 0 !important;
+    }
+    .blog-1 .wrap-header,
+    .blog-3 .wrap-header,
+    .blog-1 .blog-news-1,
+    .blog-single .wrap-header {
+        margin-left: 0px;
+        margin-right: 00px;
+    }
+}

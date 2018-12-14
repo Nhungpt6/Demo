@@ -1,0 +1,1793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doyle Responsive HTML Template</title>
+
+    <meta name="keywords" content="Responsive HTML Template">
+    <meta name="description" content="Doyle Responsive HTML Template">
+    <meta name="author" content="tivatheme">
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700' rel='stylesheet' type='text/css'>
+
+    <!-- Vendor CSS -->
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/nivo-slider/css/nivo-slider.css">
+    <link rel="stylesheet" href="libs/nivo-slider/css/animate.css">
+    <link rel="stylesheet" href="libs/nivo-slider/css/style.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/pe-icon-7-stroke/css/pe-icon-7-stroke.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/flaticon.css">
+    <link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="libs/hover/css/hover.css">
+    <!-- <link rel="stylesheet" href="libs/hover/css/demo-page.css"> -->
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body class="home-2">
+    <div id="all">
+        <header id="main-header" class="wrap-header">
+            <div class="wrap-header header-absolute main-black">
+                <div class="header-desktop">
+                    <div class="container">
+                        <div class="main-header">
+                            <div class="container">
+                                <div class="content-between">
+                                    <div class="logo">
+                                        <a href="index.html" title="Doyle">
+                                            <img class="img-responsive" src="img/logo/logo-white.png" alt="">
+                                        </a>
+                                    </div>
+
+                                    <!--end logo-->
+                                    <div class="smallLeft">
+                                        <span id="btn-menu">
+                                            <i class="fa fa-bars" aria-hidden="true"></i>
+                                        </span>
+                                        <nav id="main-nav">
+                                            <ul class="nav navbar-nav megamenu">
+                                                <li class="dropdown">
+                                                    <a href='#'>Home </a>
+                                                    <div id="dropdown-menu1" class="dropdown-menu">
+                                                        <ul>
+                                                            <li>
+                                                                <a href='index.html'>Homepage 1</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href='home-2.html'>Homepage 2</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href='home-3.html'>Homepage 3</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown">
+                                                    <a href='#'>About</a>
+                                                    <div class="dropdown-menu">
+                                                        <ul>
+                                                            <li class="parent dropdown-submenu">
+                                                                <a href='#'>Page</a>
+                                                                <div class="dropdown-menu level2">
+                                                                    <ul>
+                                                                        <li class="parent dropdown-submenu">
+                                                                            <a href="#">Page category</a>
+                                                                            <div class="dropdown-menu level3">
+                                                                                <ul>
+                                                                                    <li>
+                                                                                        <a href="page-category-full.html">Category full</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="page-category-left.html">Category left</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="page-category-right.html">Category right</a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-detail.html">Page detail</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-404.html">Page 404</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-login.html">Login / Register</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-shopping-cart.html">Page shopping cart</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-checkout.html">Page checkout</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="parent dropdown-submenu">
+                                                                <a href='#'>Layout Options</a>
+                                                                <div class="dropdown-menu level2">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="page-layout-boxed-lg.html">Boxed Large</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-layout-rtl.html">RTL</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="parent dropdown-submenu">
+                                                                <a href='#'>Headers</a>
+                                                                <div class="dropdown-menu level2">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#">Default</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-login.html">Sign In / Sign Up</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="page-logged.html">Logged</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <a href='#'>Footers</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="dropdown aligned-fullwidth">
+                                                    <a href='#'>works</a>
+                                                    <div class="dropdown-menu">
+                                                        <div class="row">
+                                                            <div class="col-lg-3">
+                                                                <div class="block-subcategories">
+                                                                    <div class="menu-title">
+                                                                        <a href="#" title="Tops">Web</a>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" title="T-shirts">PHP Basic</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Tops">ASP.NET</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Blouses">PHP Laravel</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <div class="block-subcategories">
+                                                                    <div class="menu-title">
+                                                                        <a href="#" title="Dresses">Android</a>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" title="Casual Dresses">Android Basic</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Evening Dresses">Android with FireBase</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <div class="block-subcategories">
+                                                                    <div class="menu-title">
+                                                                        <a href="#" title="Clothing">Front end</a>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" title="Shirts">HTML & CSS</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Tops">JavaScrip</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Outerwear">Jquery</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-3">
+                                                                <div class="block-subcategories">
+                                                                    <div class="menu-title">
+                                                                        <a href="#" title="Shirts">IOS</a>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a href="#" title="Long Sleeve T-Shirts">IOS Basic</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Short Sleeve T-Shirts">IOS with React</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#" title="Sleeveless T-Shirts"></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4">
+                                                                <div class="block-image">
+                                                                    <img class="img-responsive" src="" width="378" height="128" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="block-image">
+                                                                    <img class="img-responsive" src="" width="378" height="128" alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
+                                                                <div class="block-image">
+                                                                    <img class="img-responsive" src="" width="378" height="128" alt="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href='about-us.html'>portfolio</a>
+                                                </li>
+                                                <li>
+                                                    <a href='contact-us.html'>shop</a>
+                                                </li>
+                                                <li>
+                                                    <a href='contact-us.html'>blog</a>
+                                                </li>
+                                                <li>
+                                                    <a href='contact-us.html'>element</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                        <!-- end main-nav -->
+                                    </div>
+                                    <div class="block-search popup-over pull-right">
+                                        <div data-toggle="dropdown" class="popup-title">
+                                            <a href="#" title="Search">
+                                                <i class="pe-7s-search white"></i>
+                                            </a>
+                                        </div>
+                                        <div class="popup-content">
+                                            <form id="searchbox" action="#">
+                                                <div class="input-group">
+                                                    <input class="form-control" type="text" placeholder="Search" value="" autocomplete="off">
+                                                    <div class="input-group-btn">
+                                                        <button type="submit" class="btn button">Search</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- end #search_block_top -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end container -->
+                </div>
+            </div>
+        </header>
+        <!-- end Header -->
+
+        <div class="main-content">
+            <!-- Slide show -->
+            <section>
+                <div class="tiva-slideshow-wrapper">
+                    <div id="tiva-slideshow" class="nivoSlider">
+                        <a href="#" title="Slideshow image">
+                            <img class="img-responsive" src="img/slideshow/slide-1.png" title="#caption1" alt="Slideshow image">
+                        </a>
+                        <a href="#" title="Slideshow image">
+                            <img class="img-responsive" src="img/slideshow/slide-3.png" title="#caption2" alt="Slideshow image">
+                        </a>
+                    </div>
+
+                    <div id="caption1" class="nivo-html-caption">
+                        <div class="tiva-caption">
+                            <div class="flip-x hidden-xs normal very_large_24">WE INTRODUCTION</div>
+                            <div class="flip-x hidden-md hidden-sm hidden-xs very_large_60">DOYLE PSD TEMPLATE</div>
+                            <div class="flip-x hidden-md hidden-sm hidden-xs slow medium_16">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, nostrum harum consequatur deleniti
+                                reprehenderit fugiat neque quidem? Ipsa porro nulla sequi eligendi saepe, iste nemo dolorem
+                                aspernatur voluptatum distinctio officiis.
+                            </div>
+                            <div class="flip-x hidden-xs slow btn-slide">
+                                <a class="btn button btn-now" href="#" title="Shop now" style="margin-right: 15px;">Learn more</a>
+                            </div>
+                            <div class="flip-x hidden-xs slow btn-slide">
+                                <a class="btn button btn-now" href="#" title="Shop now" style="margin-left: 15px;">Try it now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="caption2" class="nivo-html-caption">
+                        <div class="tiva-caption">
+                            <div class="flip-x hidden-xs normal very_large_24">WE INTRODUCTION</div>
+                            <div class="flip-x hidden-md hidden-sm hidden-xs very_large_60">DOYLE PSD TEMPLATE</div>
+                            <div class="flip-x hidden-md hidden-sm hidden-xs slow medium_16">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, nostrum harum consequatur deleniti
+                                reprehenderit fugiat neque quidem? Ipsa porro nulla sequi eligendi saepe, iste nemo dolorem
+                                aspernatur voluptatum distinctio officiis.
+                            </div>
+                            <div class="flip-x hidden-xs slow btn-slide">
+                                <a class="btn button btn-now" href="#" title="Shop now" style="margin-right: 15px;">Learn more</a>
+                            </div>
+                            <div class="flip-x hidden-xs slow btn-slide">
+                                <a class="btn button btn-now" href="#" title="Shop now" style="margin-left: 15px;">Try it now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end tiva-slideshow-wrapper -->
+
+            <!-- about us -->
+            <section class="section about">
+                <div class="container text-center">
+                    <div class="title">
+                        Our services
+                    </div>
+                    <h3 class="sub-title">
+                        What We Do For You
+                    </h3>
+                    <div class="des-title wrap-p">
+                        <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Done ullamcorper
+                            nulla non metus auctor fringilla.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="block2 bt-fancy-box-element">
+                                <div class="wrap-box-element">
+                                    <div class="bt-icon">
+                                        <i class="flaticon-diamond"></i>
+                                    </div>
+                                    <div class="bt-content">
+                                        <h4 class="bt-title">Branding</h4>
+                                        <div class="bt-des wrap-p">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipiscing. Vestibulum felis euismod sempe.</p>
+                                        </div>
+                                        <a href="#" class="bt-readmore">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="block2 bt-fancy-box-element">
+                                <div class="wrap-box-element">
+                                    <div class="bt-icon">
+                                        <i class="flaticon-adaptive"></i>
+                                    </div>
+                                    <div class="bt-content">
+                                        <h4 class="bt-title">Web Design</h4>
+                                        <div class="bt-des wrap-p">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipiscing. Vestibulum felis euismod sempe.</p>
+                                        </div>
+                                        <a href="#" class="bt-readmore">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="block2 bt-fancy-box-element">
+                                <div class="wrap-box-element">
+                                    <div class="bt-icon">
+                                        <i class="flaticon-pen"></i>
+                                    </div>
+                                    <div class="bt-content">
+                                        <h4 class="bt-title">Web Devolopment</h4>
+                                        <div class="bt-des wrap-p">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipiscing. Vestibulum felis euismod sempe.</p>
+                                        </div>
+                                        <a href="#" class="bt-readmore">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end about us -->
+
+            <!-- Our work -->
+            <section class="section project-tab project-home2">
+                <div class="container text-center">
+                    <div class="title white">
+                        Our work
+                    </div>
+                    <h3 class="sub-title white">
+                        Amazing Projects
+                    </h3>
+                    <div class="des-title wrap-p white">
+                        <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Done ullamcorper
+                            nulla non metus auctor fringilla.
+                        </p>
+                    </div>
+                </div>
+                <div class="image-grid">
+                    <div class="project-list">
+                        <div class="wrap-list">
+                            <ul id="myTabs">
+                                <li class="btn-list active" style="background: none;">
+                                    <a href="#everything" class="hvr-underline-from-center white">All</a>
+                                </li>
+                                <li class="btn-list" style="background: none;">
+                                    <a href="#photography" class="hvr-underline-from-center white">Photography</a>
+                                </li>
+                                <li class="btn-list" style="background: none;">
+                                    <a href="#business" class="hvr-underline-from-center white">Business</a>
+                                </li>
+                                <li class="btn-list" style="background: none;">
+                                    <a href="#consultants" class="hvr-underline-from-center white">Consultants</a>
+                                </li>
+                                <li class="btn-list" style="background: none;">
+                                    <a href="#branding" class="hvr-underline-from-center white">Branding</a>
+                                </li>
+                                <li class="btn-list" style="background: none;">
+                                    <a href="#graphic" class="hvr-underline-from-center white">Graphic design</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div id="everything" class="tab-pane active">
+                        <div class="row">
+                            <div class="col-container col-md-6">
+                                <div class="img-full">
+                                    <img src="img/project/project-10.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-full">
+                                    <img src="img/project/project-2.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-13.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-9.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-15.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-14.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="photography" class="tab-pane">
+                        <div class="row">
+                            <div class="col-md-6 col-container ">
+                                <div class="img-full">
+                                    <img src="img/project/project-10.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-full">
+                                    <img src="img/project/project-2.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-13.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="business" class="tab-pane">
+                        <div class="row">
+                            <div class="col-container col-md-6">
+                                <div class="img-full">
+                                    <img src="img/project/project-10.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-13.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="consultants" class="tab-pane">
+                        <div class="row">
+                            <div class="col-container col-md-6">
+                                <div class="img-full">
+                                    <img src="img/project/project-10.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-full">
+                                    <img src="img/project/project-2.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="branding" class="tab-pane">
+                        <div class="row">
+                            <div class="col-container col-md-6">
+                                <div class="img-full">
+                                    <img src="img/project/project-10.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="graphic" class="tab-pane">
+                        <div class="row">
+                            <div class="col-container col-md-6">
+                                <div class="img-full">
+                                    <img src="img/project/project-10.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-container">
+                                <div class="img-full">
+                                    <img src="img/project/project-1.png" alt="">
+                                    <div class="overlay">
+                                        <div class="text">
+                                            <h3>
+                                                <a href="#" class="white">Creative Design</a>
+                                            </h3>
+                                            <a href="#" class="white">Photography</a>
+                                        </div>
+                                        <a href="#" class="icon-plus">
+                                            <i class="flaticon-add"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container project-bottom">
+                    <div class="col-md-6 col-container">
+                        <div class="title-bottom">
+                            <h4>
+                                See more projects? Let‘s chek now
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-container">
+                        <div class="btn-see-all btn-bottom">
+                            <a href="#" class="hvr-bounce-to-right">
+                                View all project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end our work -->
+
+            <!-- customers say -->
+            <section class="section testimonial">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-container">
+                            <div class="col-inner">
+                                <div class="block-left">
+                                    <div class="title">
+                                        TESTIMONIAL
+                                    </div>
+                                    <h3 class="sub-title">
+                                        What our customers saying?
+                                    </h3>
+                                    <div class="bottom-30">
+                                        <div class="wrap-p">
+                                            <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                                                dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.la.</p>
+                                        </div>
+                                    </div>
+                                    <div class="wrap-media">
+                                        <div class="w3-content w3-display-container">
+                                            <div class="customer-item Slide-1">
+                                                <div class="customer-say">
+                                                    <span>
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </span>
+                                                    <span>It is a long established fact that a reader will be distracted by the
+                                                        readable content of a page when looking at its layout</span>
+                                                    <span>
+                                                        <i class="fa fa-quote-right"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="customer-info">
+                                                    <div class="customer-img">
+                                                        <img src="img/ourcustomer/customer-1.png" alt="">
+                                                    </div>
+                                                    <div class="customer-name">
+                                                        <h3 class="name">Peter Capidal</h3>
+                                                        <div class="position">Senior Graphic Design</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="customer-item Slide-1">
+                                                <div class="customer-say">
+                                                    <span>
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </span>
+                                                    <span>It is a long established fact that a reader will be distracted by the
+                                                        readable content of a page when looking at its layout</span>
+                                                    <span>
+                                                        <i class="fa fa-quote-right"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="customer-info">
+                                                    <div class="customer-img">
+                                                        <img src="img/ourcustomer/customer-2.png" alt="">
+                                                    </div>
+                                                    <div class="customer-name">
+                                                        <h3 class="name">Peter Capidal</h3>
+                                                        <div class="position">Senior Graphic Design</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="customer-item Slide-1">
+                                                <div class="customer-say">
+                                                    <span>
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </span>
+                                                    <span>It is a long established fact that a reader will be distracted by the
+                                                        readable content of a page when looking at its layout</span>
+                                                    <span>
+                                                        <i class="fa fa-quote-right"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="customer-info">
+                                                    <div class="customer-img">
+                                                        <img src="img/ourcustomer/customer-3.png" alt="">
+                                                    </div>
+                                                    <div class="customer-name">
+                                                        <h3 class="name">Peter Capidal</h3>
+                                                        <div class="position">Senior Graphic Design</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="customer-item Slide-1">
+                                                <div class="customer-say">
+                                                    <span>
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </span>
+                                                    <span>It is a long established fact that a reader will be distracted by the
+                                                        readable content of a page when looking at its layout</span>
+                                                    <span>
+                                                        <i class="fa fa-quote-right"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="customer-info">
+                                                    <div class="customer-img">
+                                                        <img src="img/ourcustomer/customer-4.png" alt="">
+                                                    </div>
+                                                    <div class="customer-name">
+                                                        <h3 class="name">Peter Capidal</h3>
+                                                        <div class="position">Senior Graphic Design</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <button class="w3-button w3-black w3-display-left btn-left btn-left-home2" onclick="plus(-1)">&#10094;</button>
+                                            <button class="w3-button w3-black w3-display-right btn-right btn-right-home2" onclick="plus(1)">&#10095;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end block-1 -->
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-container">
+                            <div class="col-inner">
+                                <div class="manufacturers-block fix-block">
+                                    <div class="block-content">
+                                        <ul class="manufacture-block-partner-2">
+                                            <div class="wrap-li" style="border-right: 1px solid rgba(0, 0, 0, 0.1);">
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-1.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-2.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-3.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="wrap-li" style="border-right: 1px solid rgba(0, 0, 0, 0.1);">
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-4.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-5.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-4.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="wrap-li" style="border-right: 1px solid rgba(0, 0, 0, 0.1);">
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-3.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-2.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-1.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="wrap-li" style="border-right: 1px solid rgba(0, 0, 0, 0.1);">
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-3.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-4.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-5.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="wrap-li" style="border-right: 1px solid rgba(0, 0, 0, 0.1);">
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-4.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-3.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-2.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="wrap-li" style="border-right: 1px solid rgba(0, 0, 0, 0.1);">
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-3.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-5.png" alt="">
+                                                </div>
+                                                <div class="item-img">
+                                                    <img src="img/brand/brand-2.png" alt="">
+                                                </div>
+                                            </div>
+                                        </ul>
+                                        <!--end manufacture-block-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+                <!-- end container -->
+            </section>
+            <!-- end customers say -->
+
+            <!-- Table price -->
+            <section class="section table-price">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 col-container">
+                            <div class="col-inner bottom-30">
+                                <div class="col-wrap hvr-curl-top-right">
+                                    <div class="price-time">
+                                        <div class="price-icon">
+                                            <i class="flaticon-earth-globe"></i>
+                                        </div>
+                                        <div class="price-money">
+                                            <div class="money">$29</div>
+                                            <div class="time">Month</div>
+                                        </div>
+                                    </div>
+                                    <h3 class="price-title">
+                                        Basic Plan
+                                    </h3>
+                                    <ul class="price-option">
+                                        <li class="enable">240 PSD Included</li>
+                                        <li class="enable">Creative Design</li>
+                                        <li class="enable">Premium Stock </li>
+                                        <li class="disabled">Drag & Drop Layouts</li>
+                                        <li class="disabled">Premium Icon Design</li>
+                                        <li class="disabled">Support 24/07</li>
+                                    </ul>
+                                    <a href="#" class="order">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 col-container">
+                            <div class="col-inner bottom-30">
+                                <div class="col-wrap hvr-curl-top-right">
+                                    <div class="price-time">
+                                        <div class="price-icon">
+                                            <i class="flaticon-compass"></i>
+                                        </div>
+                                        <div class="price-money">
+                                            <div class="money">$29</div>
+                                            <div class="time">Month</div>
+                                        </div>
+                                    </div>
+                                    <h3 class="price-title">
+                                        Basic Plan
+                                    </h3>
+                                    <ul class="price-option">
+                                        <li class="enable">240 PSD Included</li>
+                                        <li class="enable">Creative Design</li>
+                                        <li class="enable">Premium Stock </li>
+                                        <li class="disabled">Drag & Drop Layouts</li>
+                                        <li class="disabled">Premium Icon Design</li>
+                                        <li class="disabled">Support 24/07</li>
+                                    </ul>
+                                    <a href="#" class="order">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 col-container">
+                            <div class="col-inner bottom-30">
+                                <div class="col-wrap hvr-curl-top-right">
+                                    <div class="price-time">
+                                        <div class="price-icon">
+                                            <i class="flaticon-trophy"></i>
+                                        </div>
+                                        <div class="price-money">
+                                            <div class="money">$29</div>
+                                            <div class="time">Month</div>
+                                        </div>
+                                    </div>
+                                    <h3 class="price-title">
+                                        Basic Plan
+                                    </h3>
+                                    <ul class="price-option">
+                                        <li class="enable">240 PSD Included</li>
+                                        <li class="enable">Creative Design</li>
+                                        <li class="enable">Premium Stock </li>
+                                        <li class="disabled">Drag & Drop Layouts</li>
+                                        <li class="disabled">Premium Icon Design</li>
+                                        <li class="disabled">Support 24/07</li>
+                                    </ul>
+                                    <a href="#" class="order">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="col-inner text-left bottom-30">
+                                <div class="title">PRICING TABLE</div>
+                                <h3 class="sub-title">Choose the right plan</h3>
+                                <div class="bottom-30">
+                                    <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                                        Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                </div>
+                                <div class="btn-see-all bottom-30">
+                                    <a href="#" class="hvr-bounce-to-right">See all campaign</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end table price -->
+
+            <!-- Our team Home-2 -->
+            <section class="section team-col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-container">
+                            <div class="col-inner">
+                                <div class="block-left">
+                                    <div class="title">
+                                        DO YOU KNOW ABOUT TEAM?
+                                    </div>
+                                    <h3 class="sub-title">
+                                        Meet Our Teams
+                                    </h3>
+                                    <div style="margin-bottom: 60px;">
+                                        <div class="wrap-p">
+                                            <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus
+                                                dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-wrap">
+                                        <div class="team-img">
+                                            <img src="img/ourteam/team-2.jpg" alt="">
+                                        </div>
+                                        <div class="team-info">
+                                            <h3 class="img-name">
+                                                <a href="#">jonny miller</a>
+                                            </h3>
+                                            <div class="img-position">Photography</div>
+                                            <ul class="icon-socials">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div style="text-align: center">
+                                                <a href="#" class="img-email">
+                                                    <i class="fa fa-paper-plane-o"></i> bearsthemes@gmai.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end block-1 -->
+                                <h3 class="sub-title">Would you like to join us?</h3>
+                                <div class="btn-see-all bottom-30">
+                                    <a href="#" class="hvr-bounce-to-right">join us now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-container">
+                            <div class="col-inner">
+                                <div class="block-left">
+                                    <div class="team-wrap">
+                                        <div class="team-img">
+                                            <img src="img/ourteam/team-3.jpg" alt="">
+                                        </div>
+                                        <div class="team-info">
+                                            <h3 class="img-name">
+                                                <a href="#">jonny miller</a>
+                                            </h3>
+                                            <div class="img-position">Photography</div>
+                                            <ul class="icon-socials">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div style="text-align: center">
+                                                <a href="#" class="img-email">
+                                                    <i class="fa fa-paper-plane-o"></i> bearsthemes@gmai.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="team-wrap">
+                                        <div class="team-img">
+                                            <img src="img/ourteam/team-1.jpg" alt="">
+                                        </div>
+                                        <div class="team-info">
+                                            <h3 class="img-name">
+                                                <a href="#">jonny miller</a>
+                                            </h3>
+                                            <div class="img-position">Photography</div>
+                                            <ul class="icon-socials">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-google-plus"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="fa fa-dribbble"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div style="text-align: center">
+                                                <a href="#" class="img-email">
+                                                    <i class="fa fa-paper-plane-o"></i> bearsthemes@gmai.com
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- end block-1 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--end Our team Home-2 -->
+
+            <!-- Clean & unique -->
+            <section class="section advantage">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <img src="img/icons/icon-1.png" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="text-left col-content">
+                                <div class="title">Clean & Unique</div>
+                                <h3 style="color: #fff; text-transform: none" class="sub-title">Doyle clean & Unique WordPress template design</h3>
+                                <div>
+                                    <div class="inner-advantage bottom-30">
+                                        <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+                                            auctor. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                                    </div>
+                                </div>
+                                <div class="btn-see-all bottom-30">
+                                    <a href="#" class="hvr-buzz-out">Purchase Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end Clean & unique -->
+
+            <!-- From Blog News -->
+            <section class="section blog-news">
+                <div class="container text-center">
+                    <div class="title">
+                        LATEST NEWS
+                    </div>
+                    <h3 class="sub-title">
+                        From Blog News
+                    </h3>
+                    <div class="des-title wrap-p">
+                        <p style="text-align: center">Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Done ullamcorper
+                            nulla non metus auctor fringilla.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 blog-item">
+                            <div class="blog-media">
+                                <div class="wrap-media">
+                                    <div class="w3-content w3-display-container">
+                                        <img class="mySlides" src="img/blog/blog-1.png" style="width:100%">
+                                        <img class="mySlides" src="img/blog/blog-2.png" style="width:100%">
+                                        <img class="mySlides" src="img/blog/blog-3.png" style="width:100%">
+                                        <img class="mySlides" src="img/blog/blog-2.png" style="width:100%">
+                                        <button class="w3-button w3-black w3-display-left btn-left" onclick="plusDivs(-1)">&#10094;</button>
+                                        <button class="w3-button w3-black w3-display-right btn-right" onclick="plusDivs(1)">&#10095;</button>
+                                    </div>
+                                    <div class="blog-category">
+                                        <a href="#">business</a>
+                                    </div>
+                                </div>
+                                <div class="blog-summary">
+                                    <h3 class="blog-title">
+                                        <a href="#">
+                                            India launches ‘monster’ rocket
+                                        </a>
+                                    </h3>
+                                    <ul>
+                                        <li>by
+                                            <strong>Bearsthemes</strong>
+                                        </li>
+                                        <li>on
+                                            <strong>Jun 27, 2017</strong>
+                                        </li>
+                                    </ul>
+                                    <div class="blog-sum">
+                                        Integer posuere erat a ante venenatis dapibus posuere velit aliquetpraesent commodo cursus magna.
+                                    </div>
+                                    <a href="#" class="blog-readmore">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 blog-item">
+                            <div class="blog-youtube">
+                                <div class="wrap-media">
+                                    <div class="youtube">
+                                        <a href="https://www.youtube.com/watch?v=qEBtvP7P5GE">
+                                            <i class="fa fa-play" aria-hidden="true"></i>
+                                        </a>
+                                        <img src="img/blog/blog-2.png" alt="" class="img-cover">
+                                    </div>
+                                    <div class="blog-category">
+                                        <a href="#">business</a>
+                                    </div>
+                                </div>
+                                <div class="blog-summary">
+                                    <h3 class="blog-title">
+                                        <a href="#">
+                                            India launches ‘monster’ rocket
+                                        </a>
+                                    </h3>
+                                    <ul>
+                                        <li>by
+                                            <strong>Bearsthemes</strong>
+                                        </li>
+                                        <li>on
+                                            <strong>Jun 27, 2017</strong>
+                                        </li>
+                                    </ul>
+                                    <div class="blog-sum">
+                                        Integer posuere erat a ante venenatis dapibus posuere velit aliquetpraesent commodo cursus magna.
+                                    </div>
+                                    <a href="#" class="blog-readmore">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 blog-item">
+                            <div class="blog-youtube">
+                                <div class="wrap-media">
+                                    <div class="youtube">
+                                        <img src="img/blog/blog-3.png" alt="" class="img-cover">
+                                    </div>
+                                    <div class="blog-category">
+                                        <a href="#">business</a>
+                                    </div>
+                                </div>
+                                <div class="blog-summary">
+                                    <h3 class="blog-title">
+                                        <a href="#">
+                                            India launches ‘monster’ rocket
+                                        </a>
+                                    </h3>
+                                    <ul>
+                                        <li>by
+                                            <strong>Bearsthemes</strong>
+                                        </li>
+                                        <li>on
+                                            <strong>Jun 27, 2017</strong>
+                                        </li>
+                                    </ul>
+                                    <div class="blog-sum">
+                                        Integer posuere erat a ante venenatis dapibus posuere velit aliquetpraesent commodo cursus magna.
+                                    </div>
+                                    <a href="#" class="blog-readmore">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end From Blog News -->
+
+            <!-- Feature -->
+            <section class="section feature">
+                <div class="container text-center">
+                    <div class="title">
+                        CORE FEATURES
+                    </div>
+                    <h3 class="sub-title">
+                        The Doyle WordPress Template
+                    </h3>
+                    <div class="des-title">
+                        <p class="wrap-p">Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Done ullamcorper
+                            nulla non metus auctor fringilla.
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-container">
+                            <div class="feature-wrap">
+                                <div class="feature-list">
+                                    <div class="feature-icon hvr-pulse">
+                                        <i class="flaticon-smartphone"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <div class="feature-item">
+                                            <h4 class="item-title">Supper Responsive</h4>
+                                            <div class="item-content wrap-p">
+                                                <p>Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus blandit
+                                                    tempus
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feature-list">
+                                    <div class="feature-icon hvr-pulse">
+                                        <i class="flaticon-tap"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <div class="feature-item">
+                                            <h4 class="item-title">Supper Responsive</h4>
+                                            <div class="item-content wrap-p">
+                                                <p>Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus blandit
+                                                    tempus
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feature-list">
+                                    <div class="feature-icon hvr-pulse">
+                                        <i class="flaticon-rocket-ship"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <div class="feature-item">
+                                            <h4 class="item-title">Supper Responsive</h4>
+                                            <div class="item-content wrap-p">
+                                                <p>Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus blandit
+                                                    tempus
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feature-list">
+                                    <div class="feature-icon hvr-pulse">
+                                        <i class="flaticon-creative-process"></i>
+                                    </div>
+                                    <div class="feature-content">
+                                        <div class="feature-item">
+                                            <h4 class="item-title">Supper Responsive</h4>
+                                            <div class="item-content wrap-p">
+                                                <p>Curabitur blandit tempus porttitor. Duis mollis, est non commodo luctus blandit
+                                                    tempus
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 feature-img col-container">
+                            <div class="col-inner">
+                                <img src="img/icons/icon-2.png" alt="" style="width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end Feature -->
+
+            <!-- contact -->
+            <section class="section contact">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="title">
+                            CONTACT US
+                        </div>
+                        <h3 class="sub-title" style="color: #fff">
+                            Get In Touch
+                        </h3>
+                        <div class="des-title">
+                            <p>Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Done
+                                ullamcorper nulla non metus auctor fringilla.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h3 class="row-item" style="color: #fff">Details Address</h3>
+                            <div class="row-item">
+                                <p>Roeterseiland Campus Building E, 10th floor Amsterdam</p>
+                            </div>
+                            <div class="row-item">
+                                <p>Monday to Friday : 9am to 8pm</p>
+                            </div>
+                            <div class="row-item">
+                                <p>
+                                    <a href="#">bearsthemes@gmail.com</a>
+                                </p>
+                            </div>
+                            <div class="row-item">
+                                <p>
+                                    <a href="#">(1200)-0989-568-331</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="row-item" style="color: #fff">Our mission</h3>
+                            <div class="row-item">
+                                <p>Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Nullam id dolor
+                                    id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                    at eros.</p>
+                            </div>
+                            <div class="row-item">
+                                <p>
+                                    <a href="#">Read more</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="row-item" style="color: #fff">Our History</h3>
+                            <div class="row-item">
+                                <p>Sed posuere consectetur est at lobortis. Maecenas faucibus mollis interdum. Nullam id dolor
+                                    id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum
+                                    at eros.</p>
+                            </div>
+                            <div class="row-item">
+                                <p>
+                                    <a href="#">Read more</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="form-wrap">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <span class="form-control-text">
+                                        <input type="text" class="input-text" placeholder="Name*">
+                                    </span>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="form-control-text">
+                                        <input type="text" class="input-text" placeholder="Email*">
+                                    </span>
+                                </div>
+                                <div class="col-md-4">
+                                    <span class="form-control-text">
+                                        <input type="text" class="input-text" placeholder="Website*">
+                                    </span>
+                                </div>
+                                <div class="col-md-12">
+                                    <span class="form-control-text">
+                                        <textarea name="" id="" cols="30" rows="10" placeholder="Message*" class="input-text"></textarea>
+                                    </span>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="btn-see-all text-center">
+                                        <a href="#" class="hvr-bounce-to-right">
+                                            submit now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- end Contact us -->
+
+            <!-- Newsletter -->
+            <section class="section newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7 text-left">
+                            <h3 class="sub-title white">
+                                Subscribe to our newsletter
+                            </h3>
+                            <div class="bottom-30 des-subscribe">
+                                <div class="wrap-p">
+                                    <p>Subcribe to our newsletter to get the lastest scoop right to your inbox</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-subscribe">
+                                <form action="">
+                                    <input type="text" placeholder="Your Email Address" class="input-email">
+                                    <input type="submit" class="subscribe" value="Subscribe">
+                                    <i class="fa fa-paper-plane-o"></i>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end Newsletter -->
+
+            <footer class="section-footer">
+                <div class="top-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div class="logo-footer">
+                                    <a href="#">
+                                        <img src="img/logo/Logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="menu-footer">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Help</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">FAQs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">History</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Showroom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Orders</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Return</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Gift Voucher</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="phone">
+                                    Any question? Let us help you. Call us:
+                                    <strong class="text-color-footer">+(1200) 989 169 092</strong>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="socials-footer">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-pinterest"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end main-content -->
+        <footer id="main-footer">
+
+        </footer>
+        <!-- footer -->
+
+        <!-- Vendor JS -->
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+
+            var slidestart = 1;
+            show(slidestart);
+
+            function plus(nn) {
+                show(slidestart += nn);
+            }
+
+            function show(nn) {
+                var ii;
+                var xx = document.getElementsByClassName("Slide-1");
+                if (nn > xx.length) {
+                    slidestart = 1
+                }
+                if (nn < 1) {
+                    slidestart = xx.length;
+                }
+                for (ii = 0; ii < xx.length; ii++) {
+                    xx[ii].style.display = "none";
+                }
+                xx[slidestart - 1].style.display = "block";
+            }
+        </script>
+        <script src="libs/jquery/jquery.min.js"></script>
+        <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="libs/owl.carousel/owl.carousel.min.js"></script>
+        <script src="libs/nivo-slider/js/jquery.nivo.slider.js"></script>
+
+
+        <!-- Template Base, Components and Settings -->
+        <script src="js/custom.js"></script>
+    </div>
+</body>
+
+</html>
